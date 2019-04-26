@@ -1,7 +1,7 @@
-
+import parser
 import telebot
 
-bot = telebot.TeleBot("821750515:AAEdjLZDe8c0GC6_hqOqjhnWafDubNtDKmY")
+bot = telebot.TeleBot("")
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
 	bot.send_message(message.chat.id, "саня набери /sanya")
